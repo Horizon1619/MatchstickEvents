@@ -3,6 +3,7 @@ import Hero from "./sections/hero/Hero";
 import BrandIntroduction from "./sections/home/BrandIntroduction";
 import FeaturedPortfolio from "./sections/home/FeaturedPortfolio";
 import ServicesPreview from "./sections/home/ServicesPreview";
+import WhyChoose from "./sections/home/WhyChoose";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
                             <BrandIntroduction />
                             <FeaturedPortfolio />
                             <ServicesPreview />
+                            <WhyChoose />
                             </main>
                                     </div>
                                       );
