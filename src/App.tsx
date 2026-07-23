@@ -1,6 +1,7 @@
 import Navigation from "./components/layout/Navigation";
 import Hero from "./sections/hero/Hero";
 import BrandIntroduction from "./sections/home/BrandIntroduction";
+import FeaturedPortfolio from "./sections/home/FeaturedPortfolio";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
                   <main>
                           <Hero />
                             <BrandIntroduction />
+                            <FeaturedPortfolio />
                             </main>
                                     </div>
                                       );
